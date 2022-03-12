@@ -1,0 +1,254 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+
+#navegador{
+    background-color: rgba(255, 255, 255, 90%);
+}
+
+/* Contenedor del navegador */
+.nav {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+/* Items del navegador */
+
+.nav-div {
+    margin-right: 80px;
+}
+
+.nav-item {
+    flex-grow: 1;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: small;
+}
+
+a.nav-item {
+    text-decoration: none;
+    color: #6D7B93;
+}
+
+h4.nav-item {
+    font-size: larger;
+    color: #2B4BC9;
+}
+
+/* Estilo para los botones */
+.btn {
+    background-color: #2D4DCB;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border-width: 0px;
+}
+
+.btn-text {
+    color: white;
+    font-size: small;
+    font-weight: bold;
+}
+
+/* Estilo del inicio */
+
+.contenedor {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.pq-contenedor{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+#explicacion {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: bolder;
+    color: #1F3E72;
+}
+
+h2.title {
+    font-size: 30px;
+}
+
+.text{
+    color: #697890;
+    font-weight: 500;
+}
+
+/* Imagen */
+.contenedor-imagen {
+    background-color: #0E92E4;
+    width: 600px;
+}
+
+.imagen{
+    width: 400px;
+    height: 600px;
+    margin-left: 110px;
+}
+
+.subtitle{
+    color: #1F3E72;
+}
+
+.pq2-contenedor{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    width: 700px;
+    background-color: rgba(255, 255, 255, 90%);
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 10px 13px -7px  #1F3E72, 1px 20px 48px -17px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px  #1F3E72, 1px 20px 48px -17px rgba(0,0,0,0);
+
+
+}
+
+.pq2-item {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+dt.text {
+    color: #1F3E72;
+    font-weight: 400;
+}
+
+dd.text {
+    color: #1F3E72;
+}
+
+#schedule {
+    position: absolute;
+    top: 500px;
+    left: 150px;
+
+}
+
+/* Estilos logotipos de vacunas */
+#vacunas {
+    margin-top: 25px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.img-logo {
+    width: 195px;
+}
+
+/* Why */
+
+#why {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 80px;
+}
+
+.div-why {
+    background-color: white;
+    
+    padding: 20px;
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 10px 13px -7px  #1F3E72, 1px 20px 48px -17px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px  #1F3E72, 1px 20px 48px -17px rgba(0,0,0,0);
+
+}
+
+.contenedor2 {
+    margin-top: 80px;
+    display: flex;
+    padding-left: 80px;
+    padding-right: 80px;
+
+    align-items: flex-start;
+}
+
+.contenedor-imagen2 {
+    background: linear-gradient(white 40%, #0E92E4,#0E92E4);
+    width: 1300px;
+}
+.imagen2{
+    width: 400px;
+    height: 600px;
+    margin-left: 70px;
+}
+
+#explicacion2 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+.contenedor-imagen3 {
+    background: linear-gradient(white 40%, #0E92E4,#0E92E4);
+    width: 600px;
+    margin-left: 100px;
+}
+.imagen3{
+    width: 400px;
+    height: 600px;
+    padding-left: 80px;
+}
+
+#explicacion3 {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.pq-contenedor2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.div-why2 {
+    background-color: white;
+    
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 10px 13px -7px  #1F3E72, 1px 20px 48px -17px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px  #1F3E72, 1px 20px 48px -17px rgba(0,0,0,0);
+    margin-bottom: 50px;
+}
+
+/* Estilo para los botones */
+.btn2 {
+    background-color: #2D4DCB rgba(45, 77, 203, 90%);
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border-width: 0px;
+}
+
+.btn-text2 {
+    color: #2D4DCB;
+    font-size: small;
+    font-weight: bold;
+}
+
+footer{
+    background-color: rgba(45, 77, 203, 10%);
+    
+}
